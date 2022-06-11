@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlockDocs | auth</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.3/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body class="uk-padding-large uk-background-muted">
+    <!-- Create a verification page with only password -->
+    <div class="uk-container uk-container-small">
+        <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+            <h3 class="uk-card-title">Verify your Account</h3>
+            <p>Please enter your password to verify your account</p>
+            <form action="../details/index.html" method="post">
+                <div class="uk-margin">
+                    <label class="uk-form-label" for="password">Password</label>
+                    <input class="uk-input" type="password" name="password" id="password" required>
+                </div>
+                <div class="uk-margin">
+                    <button class="uk-button uk-button-primary" type="submit">Verify</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
